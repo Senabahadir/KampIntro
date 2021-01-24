@@ -25,8 +25,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP3", "OOP3\OOP3.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{0E805434-AF1E-4DEA-ACB5-C0CC892DA25F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMethodDemo", "ClassMethodDemo\ClassMethodDemo.csproj", "{9AD98A7A-14FA-46BA-8188-066955DECB1F}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,10 +75,6 @@ Global
 		{0E805434-AF1E-4DEA-ACB5-C0CC892DA25F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E805434-AF1E-4DEA-ACB5-C0CC892DA25F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E805434-AF1E-4DEA-ACB5-C0CC892DA25F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9AD98A7A-14FA-46BA-8188-066955DECB1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9AD98A7A-14FA-46BA-8188-066955DECB1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9AD98A7A-14FA-46BA-8188-066955DECB1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9AD98A7A-14FA-46BA-8188-066955DECB1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
