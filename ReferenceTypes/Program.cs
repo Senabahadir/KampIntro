@@ -43,18 +43,22 @@ namespace ReferenceTypes
 
             Employee employee = new Employee();
             employee.FirstName = "veli";
+
+
+            //customer = employee;  //customer'a employee atayamayız farklı tipte oldukları için. (int ve stringi birbirine atayamayacağımız gibi.)
             
-
-            Person person3 = customer;             //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            Person person3 = customer;   //Yukarıda customer' ı emplooyee 'e atayamadık ama burada atama yapabildik çünkü Customer bir Persondır.
+            //Yani miras aldığımız sınıf türünde bir şeye, mirası alan classı atayabiliriz. --base class:Person
+            //Base sınıfa onu interite eden sınıfların referansını(adresini) atayabiliriz. 
             customer.FirstName = "Ahmet";
-
-
+            
+            
             //Console.WriteLine(((Customer)person3).CreditKardNumber);
 
             PersonManager personManeger = new PersonManager();
             personManeger.Add(employee);
         }
-    }
+    }       //Bu bize yazılımda aynı kodu farklı nesneler için çalıştırmamızı sağlıyor.
 
     class Person
     {
