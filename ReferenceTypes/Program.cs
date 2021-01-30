@@ -59,7 +59,7 @@ namespace ReferenceTypes
             personManeger.Add(employee);
         }
     }       //Bu bize yazılımda aynı kodu farklı nesneler için çalıştırmamızı sağlıyor.
-
+    
     class Person
     {
         public int Id { get; set; }
