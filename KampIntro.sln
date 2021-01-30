@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassMethodDemo", "ClassMet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{83AFFEAB-6616-4EFF-A1AB-5778D09FBE9D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceTypes", "ReferenceTypes\ReferenceTypes.csproj", "{2992CC72-FA07-4410-AED3-65F54FB38585}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{83AFFEAB-6616-4EFF-A1AB-5778D09FBE9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83AFFEAB-6616-4EFF-A1AB-5778D09FBE9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83AFFEAB-6616-4EFF-A1AB-5778D09FBE9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2992CC72-FA07-4410-AED3-65F54FB38585}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2992CC72-FA07-4410-AED3-65F54FB38585}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2992CC72-FA07-4410-AED3-65F54FB38585}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2992CC72-FA07-4410-AED3-65F54FB38585}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
